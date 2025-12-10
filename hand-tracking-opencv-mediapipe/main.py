@@ -1,5 +1,3 @@
-#Import the libraries
-
 #Installation: Opencv/Mediapipe
 
 import cv2
@@ -33,4 +31,5 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 cap.release()    
+
 cv2.destroyAllWindows()
